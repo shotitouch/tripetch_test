@@ -3,11 +3,13 @@ import InfoSection from "./components/InfoSection";
 import RugbyManImageSection from "./components/RugbyManImageSection";
 import BasketBallImageSection from "./components/BasketBallImageSection";
 
-const PageContainer = styled.div``;
+const PageContainer = styled.div`
+  overflow: hidden;
+`;
 
 const data = [
   {
-    title: "ATHLETES",
+    title: "ATHLETS",
     imageSection: <RugbyManImageSection />,
     alternateDisplay: false,
     details: [

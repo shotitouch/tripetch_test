@@ -18,10 +18,8 @@ const Container = styled.div`
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
   }
   @media ${device.medium} {
-    overflow: hidden;
     padding-top: 50px;
   }
   @media ${device.large} {
